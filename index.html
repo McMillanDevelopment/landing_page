@@ -5,19 +5,34 @@
 
     <body>
         <header id="header"> <!-- USER STORY #1 -->
-            <h1>FCC Landing Page Projects</h1>
-            <img src="logo.jpeg" alt="generic logo"> <!-- USER STORY #2 -->
+            <img src="logo.jpeg" alt="generic logo" id="header-img"> <!-- USER STORY #2 -->
             <nav id="nav-bar"> <!-- USER STORY #3 -->
-                <a href="#" class="nav-link">1</a> <!-- USER STORY #4 --> 
-                <a href="#" class="nav-link">2</a> <!-- USER STORY #4 --> 
-                <a href="#" class="nav-link">3</a> <!-- USER STORY #4 -->
-
-<!-- User Story #5: When I click a .nav-link button in the nav element,
-    I am taken to the corresponding section of the landing page. -->
+            <a href="#number1" class="nav-link">Number 1</a> <!-- USER STORY #4 --> <!-- User Story #5 -->
+            <a href="#number2" class="nav-link">Number 2</a> <!-- USER STORY #4 --> <!-- User Story #5 -->
+            <a href="#number3" class="nav-link">Number 3</a> <!-- USER STORY #4 --> <!-- User Story #5 -->
 
             </nav>
         </header>
     </body>
+
+    <section id="number1">
+        <h1>HERE</h1>
+    </section>
+
+    <section id="number2">
+        <h1>There</h1>
+        <!-- User story #6 -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A" id="video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section id="number3">
+        <h1>Everywhere</h1>
+        <form action="https://www.freecodecamp.com/email-submit" id="form"> <!-- User Story #7, User Story #12-->
+            <label for="email">Email: </label> 
+            <input type="email" id="email" placeholder="Email Address" name="email"> <!-- User Story #8, User Story #9, User Story #10 -->
+            <input type="submit" id="submit"> <!-- User Story #11 -->
+        </form>
+    </section>
 
     <script src="script.js"></script>
 
